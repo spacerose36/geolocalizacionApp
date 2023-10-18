@@ -28,7 +28,7 @@ public class VisualizadorXml extends VisualizadorAbstracto {
     }
 
     @Override
-    public void exportar() throws IOException {
+    public void exportar(String grafo) throws IOException {
         BufferedWriter writer = new BufferedWriter(new FileWriter("export.xml"));
         writer.write(visualizar());
         writer.close();

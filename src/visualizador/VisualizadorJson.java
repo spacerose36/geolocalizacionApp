@@ -35,7 +35,7 @@ public class VisualizadorJson extends VisualizadorAbstracto {
     }
 
     @Override
-    public void exportar() throws IOException {
+    public void exportar(String grafo) throws IOException {
         BufferedWriter writer = new BufferedWriter(new FileWriter("export.json"));
         writer.write(visualizar());
         writer.close();

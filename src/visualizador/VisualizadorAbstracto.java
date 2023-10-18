@@ -11,9 +11,12 @@ public abstract class VisualizadorAbstracto {
         this.grafo = grafo;
     }
 
+    public final void visualizarYExportar() throws IOException {
+        exportar(visualizar());
+    }
     public abstract String visualizar();
 
-    public abstract void exportar() throws IOException;
+    public abstract void exportar(String grafo) throws IOException;
 
     public Grafo getGrafo() {
         return grafo;

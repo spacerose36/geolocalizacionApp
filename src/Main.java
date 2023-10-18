@@ -28,7 +28,7 @@ public class Main {
     private static void exportar(Grafo grafo) throws IOException {
         VisualizadorAbstracto jsonVisualizer = new VisualizadorJson(grafo);
         VisualizadorAbstracto xmlVisualizer = new VisualizadorXml(grafo);
-        jsonVisualizer.exportar();
-        xmlVisualizer.exportar();
+        jsonVisualizer.visualizarYExportar();
+        xmlVisualizer.visualizarYExportar();
     }
 }
