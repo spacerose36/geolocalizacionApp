@@ -1,0 +1,34 @@
+{
+"información": {
+"Industria": {
+"Enlace0": {
+"puntoPartida": "Ciudad",
+"puntoLlegada": "Industria"
+},
+"Enlace1": {
+"puntoPartida": "Industria",
+"puntoLlegada": "Sitio turistico"
+}
+},
+"Ciudad": {
+"Enlace2": {
+"puntoPartida": "Ciudad",
+"puntoLlegada": "Industria"
+},
+"Enlace3": {
+"puntoPartida": "Ciudad",
+"puntoLlegada": "Sitio turistico"
+}
+},
+"Sitio turistico": {
+"Enlace4": {
+"puntoPartida": "Ciudad",
+"puntoLlegada": "Sitio turistico"
+},
+"Enlace5": {
+"puntoPartida": "Industria",
+"puntoLlegada": "Sitio turistico"
+}
+}
+}
+}

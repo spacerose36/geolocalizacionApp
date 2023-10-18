@@ -1,0 +1,14 @@
+<Info> 
+<Nodo>Industria
+<Enlace>Ciudad->Industria</Enlace> 
+<Enlace>Industria->Sitio turistico</Enlace> 
+</Nodo> 
+<Nodo>Ciudad
+<Enlace>Ciudad->Industria</Enlace> 
+<Enlace>Ciudad->Sitio turistico</Enlace> 
+</Nodo> 
+<Nodo>Sitio turistico
+<Enlace>Ciudad->Sitio turistico</Enlace> 
+<Enlace>Industria->Sitio turistico</Enlace> 
+</Nodo> 
+</Info>
